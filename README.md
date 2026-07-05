@@ -28,6 +28,10 @@ pip install novagrad
 pip install git+https://github.com/yeunzu/NovaGrad.git
 ```
 
+
+### 주의사항
+현재 초기 개발도 끝나지 않은 상태입니다. 따라서 수없이 말도 안되는 버그들이 많다는 점 이해해주시면 좋겠습니다
+
 ## ⚡ 퀵 스타트 (Quick Start)
 가장 간단한 다층 퍼셉트론(MLP)으로 MNIST 데이터를 학습하는 예제입니다.
 ```python
