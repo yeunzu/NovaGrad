@@ -21,7 +21,7 @@ class Adam(BaseOptimizer):
 
         self.t += 1
 
-        lr_t = self.lr * ((1 - self.beta2 ** self.t) ** 0.5 / (1 - self.beta1 ** self.t))
+        lr_t = self.learning_rate * ((1 - self.beta2 ** self.t) ** 0.5 / (1 - self.beta1 ** self.t))
 
         new_params = []
         new_m = []
