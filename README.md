@@ -1,4 +1,4 @@
-# 🔥 NovaGrad (노바그라드)
+# 🔥 NovaGrad
 
 [![PyPI version](https://badge.fury.io/py/novagrad.svg)](https://badge.fury.io/py/novagrad)
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
