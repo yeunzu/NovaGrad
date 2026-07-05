@@ -109,13 +109,13 @@ def numba_conv_backward(x, W, dout, pad, stride):
 
 
 class Conv(BaseLayer):
-    def __init__(self, filter_num, filter_channels, filter_height, filter_width, stride=1, 
+    def __init__(self, filter_num, filter_channels, filter_height, filter_width, stride=1, pad=0, 
                  backend: Backend = None, optimizer = Adam, learning_rate=0.001, initializer=He, 
                  **opt_params):
         super().__init__(backend, optimizer, learning_rate, **opt_params)
 
         self.stride = stride
-        self.pad = self.pad
+        self.pad = pad
         
         self.x = None
         self.x_shape = None

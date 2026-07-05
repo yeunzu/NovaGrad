@@ -20,7 +20,7 @@ class RMSProp(BaseOptimizer):
         for p, g, h in zip(params, grads, self.h):
             h_new = self.rho * h + (1 - self.rho) * g * g
             new_h.append(h_new)
-            new_params.append(p - self.lr / (self.backend.sqrt(h_new) + self.eps) * g)
+            new_params.append(p - self.learning_rate / (self.backend.sqrt(h_new) + self.eps) * g)
 
         self.h = new_h
         return new_params

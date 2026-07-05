@@ -5,4 +5,4 @@ class SGD(BaseOptimizer):
         super().__init__(learning_rate, backend, **kwargs)
 
     def update(self, params, grads, *args):
-        return [p - self.lr * g for p, g in zip(params, grads)]
+        return [p - self.learning_rate * g for p, g in zip(params, grads)]
