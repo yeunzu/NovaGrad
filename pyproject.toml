@@ -8,6 +8,13 @@ name = "novagrad"
 version = "0.1.0"
 description = "A custom hybrid Deep Learning Framework with JAX and MLX backend"
 readme = "README.md"
+license = {file = "LICENSE}
+# PyPI 검색 필터 및 메인 화면에 띄울 공식 뱃지(태그)들
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",  # 이 줄이 가장 중요
+    "Operating System :: OS Independent",
+]
 requires-python = ">=3.9"
 dependencies = [
     "numpy>=1.21.0",
