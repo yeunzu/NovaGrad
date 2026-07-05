@@ -15,7 +15,7 @@ class Momentum(BaseOptimizer):
         new_params = []
         new_v = []
 
-        for p, g, v in zip(params, grads, self,v):
+        for p, g, v in zip(params, grads, self.v):
             v_new = self.momentum * v - self.learning_rate * g
             new_v.append(v_new)
             new_params.append(p + v_new)
