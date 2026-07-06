@@ -1,6 +1,16 @@
-from .myCompose import MyCompose
+from ._myCompose import MyCompose
+from ._basetransform import BaseTransform
 
-from .gaussianNoise import GaussianNoise
-from .horizontalFlip import HorizontalFlip
-from .randomBrightness import RandomBrightness
-from .randomContrast import RandomContrast
+from ._gaussianNoise import GaussianNoise
+from ._horizontalFlip import HorizontalFlip
+from ._randomBrightness import RandomBrightness
+from ._randomContrast import RandomContrast
+
+__all__ = [
+    'MyCompose', 
+    'BaseTransform', 
+    'GaussianNoise', 
+    'HorizontalFlip', 
+    'RandomBrightness', 
+    'RandomContrast'
+]

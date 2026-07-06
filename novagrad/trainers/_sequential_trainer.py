@@ -1,6 +1,6 @@
 from ..backend import Backend
-from ..models.sequential import MyModel
-from ..dataloaders.dataloader import DataLoader
+from ..models._sequential import MyModel
+from ..dataloaders._dataloader import DataLoader
 
 class Trainer:
     """

@@ -1,1 +1,5 @@
-from .sequential import MyModel
+from ._sequential import MyModel
+
+__all__ = [
+    'MyModel'
+]

@@ -1,4 +1,4 @@
-from .base_loss import BaseLoss
+from ._base_loss import BaseLoss
 
 class CrossEntropyError(BaseLoss):
     def __init__(self, backend = None, eps=1e-8):

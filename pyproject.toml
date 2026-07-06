@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta" # 실제 소스코드 압축&패키징
 
 [project]
 name = "novagrad"
-version = "0.1.0"
+version = "0.1.1"
 description = "A custom hybrid Deep Learning Framework with JAX and MLX backend"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -18,7 +18,12 @@ classifiers = [
 requires-python = ">=3.9"
 dependencies = [
     "numpy>=1.21.0",
-    "numba>=0.60.0"
+    "numba>=0.60.0",
     # JAX나 MLX는 하드웨어(Mac vs Colab)마다 설치 방식이 다르므로 
-    # pip 설치 시 충돌을 막기 위해 하드 종속성에서 빼두는 것이 엔지니어링 팁입니다.
+    # pip 설치 시 충돌을 막기 위해 하드 종속성에서 빼둠
 ]
+
+[project.urls]
+Homepage = "https://github.com/yeunzu/NovaGrad"
+Documentation = "https://app.notion.com/p/Home-NovaGrad-Documentation-3944bb67167a80bf845af6676ad69893?source=copy_link"
+"Bug Tracker" = "https://github.com/yeunzu/NovaGrad/issues"

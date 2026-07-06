@@ -1,8 +1,8 @@
 from ..backend import Backend
-from .base_layer import BaseLayer
+from ._base_layer import BaseLayer
 
-from ..optimizers.adam import Adam
-from ..initializers.he import He
+from ..optimizers._adam import Adam
+from ..initializers._he import He
 
 from numba import njit, prange
 import numpy as np

@@ -1,6 +1,6 @@
 from ..backend import Backend
-from ..optimizers.base_optimizer import BaseOptimizer
-from ..optimizers.adam import Adam
+from ..optimizers._base_optimizer import BaseOptimizer
+from ..optimizers._adam import Adam
 
 
 class BaseLayer:

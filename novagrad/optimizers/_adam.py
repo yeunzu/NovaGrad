@@ -1,4 +1,4 @@
-from .base_optimizer import BaseOptimizer
+from ._base_optimizer import BaseOptimizer
 
 class Adam(BaseOptimizer):
     def __init__(self, learning_rate=0.001, backend = None, 

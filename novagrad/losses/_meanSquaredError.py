@@ -1,4 +1,4 @@
-from .base_loss import BaseLoss
+from ._base_loss import BaseLoss
 
 class MeanSquaredError(BaseLoss):
     def __init__(self, backend=None):

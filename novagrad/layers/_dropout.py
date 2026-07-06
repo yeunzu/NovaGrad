@@ -1,5 +1,5 @@
 from ..backend import Backend
-from .base_layer import BaseLayer
+from ._base_layer import BaseLayer
 
 
 class Dropout(BaseLayer):

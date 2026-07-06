@@ -1,5 +1,5 @@
 from ..backend import Backend
-from .basetransform import BaseTransform
+from ._basetransform import BaseTransform
 
 
 class HorizontalFlip(BaseTransform):
