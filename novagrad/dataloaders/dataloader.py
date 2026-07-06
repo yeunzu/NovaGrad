@@ -34,7 +34,7 @@ class DataLoader:
         self.x = x
         self.y = y
         self.batch_size = batch_size
-        self.backend = backend if backend is not None else Backend()
+        self.backend = backend
         self.shuffle = shuffle
         self.x_dtype = x_dtype
         self.y_dtype = y_dtype
