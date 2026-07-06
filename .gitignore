@@ -4,7 +4,7 @@
 # *$py.class
 *.egg-info/
 # build/
-# dist/
+dist/
 .vscode/
 
 # 맥(Mac) OS 찌꺼기 파일

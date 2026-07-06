@@ -8,7 +8,7 @@ name = "novagrad"
 version = "0.1.0"
 description = "A custom hybrid Deep Learning Framework with JAX and MLX backend"
 readme = "README.md"
-license = {file = "LICENSE}
+license = { file = "LICENSE" }
 # PyPI 검색 필터 및 메인 화면에 띄울 공식 뱃지(태그)들
 classifiers = [
     "Programming Language :: Python :: 3",
